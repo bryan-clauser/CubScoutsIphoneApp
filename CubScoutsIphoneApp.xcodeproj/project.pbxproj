@@ -361,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CubScoutsIphoneApp/CubScoutsIphoneApp-Prefix.pch";
 				INFOPLIST_FILE = "CubScoutsIphoneApp/CubScoutsIphoneApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CubScoutsIphoneApp/CubScoutsIphoneApp-Prefix.pch";
 				INFOPLIST_FILE = "CubScoutsIphoneApp/CubScoutsIphoneApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +445,7 @@
 				930AAD5813C3771F003BB31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		930AAD5913C3771F003BB31D /* Build configuration list for PBXNativeTarget "CubScoutsIphoneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +454,7 @@
 				930AAD5B13C3771F003BB31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
