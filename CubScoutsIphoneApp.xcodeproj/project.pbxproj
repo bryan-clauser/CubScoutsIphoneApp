@@ -113,12 +113,7 @@
 		930AAD2913C3771E003BB31D /* CubScoutsIphoneApp */ = {
 			isa = PBXGroup;
 			children = (
-				930AAD3213C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.h */,
-				930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */,
-				930AAD3513C3771E003BB31D /* MainWindow.xib */,
-				930AAD3813C3771E003BB31D /* CubScoutsIphoneAppViewController.h */,
-				930AAD3913C3771E003BB31D /* CubScoutsIphoneAppViewController.m */,
-				930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */,
+				9349EDDC13C38238003B6BC4 /* com */,
 				930AAD2A13C3771E003BB31D /* Supporting Files */,
 			);
 			path = CubScoutsIphoneApp;
@@ -153,6 +148,35 @@
 				930AAD4F13C3771F003BB31D /* CubScoutsIphoneAppTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9349EDDC13C38238003B6BC4 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				93C7449E13C383E60007BC7A /* bsa */,
+			);
+			name = com;
+			sourceTree = "<group>";
+		};
+		93C7449E13C383E60007BC7A /* bsa */ = {
+			isa = PBXGroup;
+			children = (
+				93C7449F13C383F90007BC7A /* iphone */,
+			);
+			name = bsa;
+			sourceTree = "<group>";
+		};
+		93C7449F13C383F90007BC7A /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD3213C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.h */,
+				930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */,
+				930AAD3513C3771E003BB31D /* MainWindow.xib */,
+				930AAD3813C3771E003BB31D /* CubScoutsIphoneAppViewController.h */,
+				930AAD3913C3771E003BB31D /* CubScoutsIphoneAppViewController.m */,
+				930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */,
+			);
+			name = iphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
