@@ -169,6 +169,11 @@
 		93C7449F13C383F90007BC7A /* iphone */ = {
 			isa = PBXGroup;
 			children = (
+				93C744A413C3846B0007BC7A /* weblos */,
+				93C744A313C3845A0007BC7A /* wolf */,
+				93C744A213C384500007BC7A /* tiger */,
+				93C744A113C384430007BC7A /* bear */,
+				93C744A013C384340007BC7A /* bobcat */,
 				930AAD3213C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.h */,
 				930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */,
 				930AAD3513C3771E003BB31D /* MainWindow.xib */,
@@ -177,6 +182,41 @@
 				930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */,
 			);
 			name = iphone;
+			sourceTree = "<group>";
+		};
+		93C744A013C384340007BC7A /* bobcat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bobcat;
+			sourceTree = "<group>";
+		};
+		93C744A113C384430007BC7A /* bear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bear;
+			sourceTree = "<group>";
+		};
+		93C744A213C384500007BC7A /* tiger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tiger;
+			sourceTree = "<group>";
+		};
+		93C744A313C3845A0007BC7A /* wolf */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = wolf;
+			sourceTree = "<group>";
+		};
+		93C744A413C3846B0007BC7A /* weblos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weblos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
