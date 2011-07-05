@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930AAD2413C3771E003BB31D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2313C3771E003BB31D /* UIKit.framework */; };
+		930AAD2613C3771E003BB31D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2513C3771E003BB31D /* Foundation.framework */; };
+		930AAD2813C3771E003BB31D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2713C3771E003BB31D /* CoreGraphics.framework */; };
+		930AAD2E13C3771E003BB31D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930AAD2C13C3771E003BB31D /* InfoPlist.strings */; };
+		930AAD3113C3771E003BB31D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AAD3013C3771E003BB31D /* main.m */; };
+		930AAD3413C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */; };
+		930AAD3713C3771E003BB31D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930AAD3513C3771E003BB31D /* MainWindow.xib */; };
+		930AAD3A13C3771E003BB31D /* CubScoutsIphoneAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AAD3913C3771E003BB31D /* CubScoutsIphoneAppViewController.m */; };
+		930AAD3D13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */; };
+		930AAD4413C3771F003BB31D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2313C3771E003BB31D /* UIKit.framework */; };
+		930AAD4513C3771F003BB31D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2513C3771E003BB31D /* Foundation.framework */; };
+		930AAD4613C3771F003BB31D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AAD2713C3771E003BB31D /* CoreGraphics.framework */; };
+		930AAD4E13C3771F003BB31D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930AAD4C13C3771F003BB31D /* InfoPlist.strings */; };
+		930AAD5113C3771F003BB31D /* CubScoutsIphoneAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 930AAD5013C3771F003BB31D /* CubScoutsIphoneAppTests.h */; };
+		930AAD5313C3771F003BB31D /* CubScoutsIphoneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AAD5213C3771F003BB31D /* CubScoutsIphoneAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930AAD4713C3771F003BB31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930AAD1613C3771E003BB31D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930AAD1E13C3771E003BB31D;
+			remoteInfo = CubScoutsIphoneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930AAD1F13C3771E003BB31D /* CubScoutsIphoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubScoutsIphoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930AAD2313C3771E003BB31D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		930AAD2513C3771E003BB31D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		930AAD2713C3771E003BB31D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		930AAD2B13C3771E003BB31D /* CubScoutsIphoneApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubScoutsIphoneApp-Info.plist"; sourceTree = "<group>"; };
+		930AAD2D13C3771E003BB31D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930AAD2F13C3771E003BB31D /* CubScoutsIphoneApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubScoutsIphoneApp-Prefix.pch"; sourceTree = "<group>"; };
+		930AAD3013C3771E003BB31D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930AAD3213C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubScoutsIphoneAppAppDelegate.h; sourceTree = "<group>"; };
+		930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubScoutsIphoneAppAppDelegate.m; sourceTree = "<group>"; };
+		930AAD3613C3771E003BB31D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		930AAD3813C3771E003BB31D /* CubScoutsIphoneAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubScoutsIphoneAppViewController.h; sourceTree = "<group>"; };
+		930AAD3913C3771E003BB31D /* CubScoutsIphoneAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubScoutsIphoneAppViewController.m; sourceTree = "<group>"; };
+		930AAD3C13C3771E003BB31D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CubScoutsIphoneAppViewController.xib; sourceTree = "<group>"; };
+		930AAD4313C3771F003BB31D /* CubScoutsIphoneAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubScoutsIphoneAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930AAD4B13C3771F003BB31D /* CubScoutsIphoneAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubScoutsIphoneAppTests-Info.plist"; sourceTree = "<group>"; };
+		930AAD4D13C3771F003BB31D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930AAD4F13C3771F003BB31D /* CubScoutsIphoneAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubScoutsIphoneAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		930AAD5013C3771F003BB31D /* CubScoutsIphoneAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubScoutsIphoneAppTests.h; sourceTree = "<group>"; };
+		930AAD5213C3771F003BB31D /* CubScoutsIphoneAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubScoutsIphoneAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930AAD1C13C3771E003BB31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD2413C3771E003BB31D /* UIKit.framework in Frameworks */,
+				930AAD2613C3771E003BB31D /* Foundation.framework in Frameworks */,
+				930AAD2813C3771E003BB31D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930AAD3F13C3771F003BB31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD4413C3771F003BB31D /* UIKit.framework in Frameworks */,
+				930AAD4513C3771F003BB31D /* Foundation.framework in Frameworks */,
+				930AAD4613C3771F003BB31D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930AAD1413C3771E003BB31D = {
+			isa = PBXGroup;
+			children = (
+				930AAD2913C3771E003BB31D /* CubScoutsIphoneApp */,
+				930AAD4913C3771F003BB31D /* CubScoutsIphoneAppTests */,
+				930AAD2213C3771E003BB31D /* Frameworks */,
+				930AAD2013C3771E003BB31D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930AAD2013C3771E003BB31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD1F13C3771E003BB31D /* CubScoutsIphoneApp.app */,
+				930AAD4313C3771F003BB31D /* CubScoutsIphoneAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930AAD2213C3771E003BB31D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD2313C3771E003BB31D /* UIKit.framework */,
+				930AAD2513C3771E003BB31D /* Foundation.framework */,
+				930AAD2713C3771E003BB31D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930AAD2913C3771E003BB31D /* CubScoutsIphoneApp */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD3213C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.h */,
+				930AAD3313C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m */,
+				930AAD3513C3771E003BB31D /* MainWindow.xib */,
+				930AAD3813C3771E003BB31D /* CubScoutsIphoneAppViewController.h */,
+				930AAD3913C3771E003BB31D /* CubScoutsIphoneAppViewController.m */,
+				930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */,
+				930AAD2A13C3771E003BB31D /* Supporting Files */,
+			);
+			path = CubScoutsIphoneApp;
+			sourceTree = "<group>";
+		};
+		930AAD2A13C3771E003BB31D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD2B13C3771E003BB31D /* CubScoutsIphoneApp-Info.plist */,
+				930AAD2C13C3771E003BB31D /* InfoPlist.strings */,
+				930AAD2F13C3771E003BB31D /* CubScoutsIphoneApp-Prefix.pch */,
+				930AAD3013C3771E003BB31D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930AAD4913C3771F003BB31D /* CubScoutsIphoneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD5013C3771F003BB31D /* CubScoutsIphoneAppTests.h */,
+				930AAD5213C3771F003BB31D /* CubScoutsIphoneAppTests.m */,
+				930AAD4A13C3771F003BB31D /* Supporting Files */,
+			);
+			path = CubScoutsIphoneAppTests;
+			sourceTree = "<group>";
+		};
+		930AAD4A13C3771F003BB31D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930AAD4B13C3771F003BB31D /* CubScoutsIphoneAppTests-Info.plist */,
+				930AAD4C13C3771F003BB31D /* InfoPlist.strings */,
+				930AAD4F13C3771F003BB31D /* CubScoutsIphoneAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930AAD1E13C3771E003BB31D /* CubScoutsIphoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930AAD5613C3771F003BB31D /* Build configuration list for PBXNativeTarget "CubScoutsIphoneApp" */;
+			buildPhases = (
+				930AAD1B13C3771E003BB31D /* Sources */,
+				930AAD1C13C3771E003BB31D /* Frameworks */,
+				930AAD1D13C3771E003BB31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubScoutsIphoneApp;
+			productName = CubScoutsIphoneApp;
+			productReference = 930AAD1F13C3771E003BB31D /* CubScoutsIphoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930AAD4213C3771F003BB31D /* CubScoutsIphoneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930AAD5913C3771F003BB31D /* Build configuration list for PBXNativeTarget "CubScoutsIphoneAppTests" */;
+			buildPhases = (
+				930AAD3E13C3771F003BB31D /* Sources */,
+				930AAD3F13C3771F003BB31D /* Frameworks */,
+				930AAD4013C3771F003BB31D /* Resources */,
+				930AAD4113C3771F003BB31D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930AAD4813C3771F003BB31D /* PBXTargetDependency */,
+			);
+			name = CubScoutsIphoneAppTests;
+			productName = CubScoutsIphoneAppTests;
+			productReference = 930AAD4313C3771F003BB31D /* CubScoutsIphoneAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930AAD1613C3771E003BB31D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 930AAD1913C3771E003BB31D /* Build configuration list for PBXProject "CubScoutsIphoneApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 930AAD1413C3771E003BB31D;
+			productRefGroup = 930AAD2013C3771E003BB31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930AAD1E13C3771E003BB31D /* CubScoutsIphoneApp */,
+				930AAD4213C3771F003BB31D /* CubScoutsIphoneAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930AAD1D13C3771E003BB31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD2E13C3771E003BB31D /* InfoPlist.strings in Resources */,
+				930AAD3713C3771E003BB31D /* MainWindow.xib in Resources */,
+				930AAD3D13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930AAD4013C3771F003BB31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD4E13C3771F003BB31D /* InfoPlist.strings in Resources */,
+				930AAD5113C3771F003BB31D /* CubScoutsIphoneAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		930AAD4113C3771F003BB31D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930AAD1B13C3771E003BB31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD3113C3771E003BB31D /* main.m in Sources */,
+				930AAD3413C3771E003BB31D /* CubScoutsIphoneAppAppDelegate.m in Sources */,
+				930AAD3A13C3771E003BB31D /* CubScoutsIphoneAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930AAD3E13C3771F003BB31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930AAD5313C3771F003BB31D /* CubScoutsIphoneAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930AAD4813C3771F003BB31D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930AAD1E13C3771E003BB31D /* CubScoutsIphoneApp */;
+			targetProxy = 930AAD4713C3771F003BB31D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		930AAD2C13C3771E003BB31D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930AAD2D13C3771E003BB31D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		930AAD3513C3771E003BB31D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930AAD3613C3771E003BB31D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		930AAD3B13C3771E003BB31D /* CubScoutsIphoneAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930AAD3C13C3771E003BB31D /* en */,
+			);
+			name = CubScoutsIphoneAppViewController.xib;
+			sourceTree = "<group>";
+		};
+		930AAD4C13C3771F003BB31D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930AAD4D13C3771F003BB31D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930AAD5413C3771F003BB31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		930AAD5513C3771F003BB31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		930AAD5713C3771F003BB31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubScoutsIphoneApp/CubScoutsIphoneApp-Prefix.pch";
+				INFOPLIST_FILE = "CubScoutsIphoneApp/CubScoutsIphoneApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		930AAD5813C3771F003BB31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubScoutsIphoneApp/CubScoutsIphoneApp-Prefix.pch";
+				INFOPLIST_FILE = "CubScoutsIphoneApp/CubScoutsIphoneApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		930AAD5A13C3771F003BB31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CubScoutsIphoneApp.app/CubScoutsIphoneApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubScoutsIphoneAppTests/CubScoutsIphoneAppTests-Prefix.pch";
+				INFOPLIST_FILE = "CubScoutsIphoneAppTests/CubScoutsIphoneAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		930AAD5B13C3771F003BB31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CubScoutsIphoneApp.app/CubScoutsIphoneApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CubScoutsIphoneAppTests/CubScoutsIphoneAppTests-Prefix.pch";
+				INFOPLIST_FILE = "CubScoutsIphoneAppTests/CubScoutsIphoneAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930AAD1913C3771E003BB31D /* Build configuration list for PBXProject "CubScoutsIphoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930AAD5413C3771F003BB31D /* Debug */,
+				930AAD5513C3771F003BB31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930AAD5613C3771F003BB31D /* Build configuration list for PBXNativeTarget "CubScoutsIphoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930AAD5713C3771F003BB31D /* Debug */,
+				930AAD5813C3771F003BB31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930AAD5913C3771F003BB31D /* Build configuration list for PBXNativeTarget "CubScoutsIphoneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930AAD5A13C3771F003BB31D /* Debug */,
+				930AAD5B13C3771F003BB31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930AAD1613C3771E003BB31D /* Project object */;
+}
